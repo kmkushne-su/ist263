@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Contact</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <h1 class="h1">Contact</h1>
+        Kaitlyn Kushner
+        <p>
+            900 South Crouse Ave, Syracuse, NY 13244
+        </p>
+        <p>
+            <a href="mailto:kmkushne@syr.edu">kmkushne@syr.edu</a>
+        </p>
+        <p>
+            <img src="../Images/logo-sized.png" alt="LinkedIn Logo">
+            <a href="https://www.linkedin.com/in/kaitlynkushner/" target="_blank">My LinkedIn Profile</a>
+        </p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2915.6238585955443!2d-76.138055!3d43.049344999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f3a5e0952113%3A0xa671279445418b15!2s820-900%20S%20Crouse%20Ave%2C%20Syracuse%2C%20NY%2013210!5e0!3m2!1sen!2sus!4v1757534668786!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br>
+
+            <h1 class="h1">Forms</h1>
+            <form action="https://formspree.io/f/mandgaow" method="POST">
+                <label for="fname">Email: </label><br>
+                <input type="text" id="fname" name="fname"><br>
+
+                <p>Would you like to receive emails?</p>
+                <input type="radio" id="option1" name="option" value="yes">
+                <label for="option1">Yes</label><br>
+                <input type="radio" id="option2" name="option" value="no">
+                <label for="option2">No</label><br>
+                <input type="radio" id="option3" name="option" value="maybe">
+                <label for="option3">Maybe</label><br>
+
+                <p><label for="comments">Additional Information: </label><br>
+                <textarea id="comments" name="comments" rows="4" cols="50">
+                    Lorem Ipsum.
+                </textarea></p>
+
+                <input type="submit" value="sendform"> 
+            </form>
+    </body>
+    
+    </html>
