@@ -1,0 +1,10 @@
+body {background-image: url(Images/logo-sized.png); background-size: 100%}
+h1, body {color: #000000; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+body a {color: white;}
+#brah1 {color: purple;}
+.class1 {color: blue;}
+.class1 {color: brown;}
+a:hover {color: black;}
+#image2 {float:right; margin: 20px;}
+.clearfloat {clear: both;}
+.boxmodeltesting {padding: 5em 5em 5em 5em; background: blue; border: 15px; border-color: green; margin: 20 px;}
