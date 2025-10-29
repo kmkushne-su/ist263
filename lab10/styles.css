@@ -1,0 +1,8 @@
+body {background-color: #bfb5b2;}
+h1, h2 {color: #5e3c58;}
+p {color: #000000;}
+nav a {color: #83adb5;}
+nav {background-color: #000000;}
+nav a:hover {background-color: #c7bbc9}
+nav {padding: 10px}
+nav {margin-bottom: 30 px}
