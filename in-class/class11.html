@@ -10,10 +10,15 @@
     </head>
     <body>
         <script>
-            alert('I am sending an alert!');
+            function SecondBlock () {
+            alert('Second Alert');
+            }
+            function Clicky () {
+            alert('This was because of a click')
+            }
         </script>
-        <h1>Classic First JavaScript Program</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed luctus felis.</p>
+        <h1 onmouseover="SecondBlock ()">Classic First JavaScript Program</h1>
+        <p onclick="Clicky ()">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sed luctus felis.</p>
         <p>Nullam in orci eget neque maximus mattis quis at libero. Ut vitae condimentum tellus, et suscipit ipsum. Quisque ac volutpat nunc. Vestibulum pretium egestas ligula, eu condimentum odio molestie sed. </p>
     </body>
 </html>
