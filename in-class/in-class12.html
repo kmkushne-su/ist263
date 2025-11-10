@@ -16,7 +16,11 @@
             }
 
             function changeImage() {
-                document.getElementById('logo').setAttribute("src", )
+                document.getElementById("logo").setAttribute("src", "../Images/lab09image.png")
+            }
+
+            function bluey() {
+                document.getElementById("p2").style.color = "#0000FF";
             }
     </script>
 </head>
@@ -25,12 +29,12 @@
     <p id="p1" onclick="bigly();">Content goes here.</p>
     <p id="p2">Paragraph 2</p>
 
-    <h1> My JavaScript Quiz </h1>
+    <h1 onmouseover="bluey();"> My JavaScript Quiz </h1>
     <p> Java and JavaScript are the same thing.</p>
     <p onclick="wrongAnswer();" id="wrong"> True</p>
     <p onclick="rightAnswer();" id="correct"> False</p>
 
-    <img src="../Images.logo-sized.png" id="logo" onclick="changeImage()">
+    <img src="../Images/logo-sized.png" id="logo" onclick="changeImage()">
 </body>
 
 </html>
