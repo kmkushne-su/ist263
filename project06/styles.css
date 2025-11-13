@@ -3,6 +3,7 @@ h1 {color: #6D8196; font-family: 'Open Sans', Verdana, Geneva, Tahoma, sans-seri
 p {color: #000000; font-family: 'Open Sans', Verdana, Geneva, Tahoma, sans-serif; text-align: center;}
 nav a {color: #000000; font-family: 'Open Sans', Verdana, Geneva, Tahoma, sans-serif;}
 nav {background-color: #FFFFE3;}
+footer {background-color: #FFFFE3;}
 nav a:hover {background-color: #6D8196;}
 nav {padding: 10px;}
 nav {margin-bottom: 30 px;}
