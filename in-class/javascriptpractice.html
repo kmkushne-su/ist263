@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>JavaScript Practice</title>
+        <style>
+        </style>
+        <script>
+            function Clicked () {
+                document.getElementById("clickme").innerHTML = 'Clicked!';
+            }
+
+            function Mouse () {
+                document.getElementById("mouseme").setAttribute ("src", "logo-sized.png");
+            }
+        </script>
+    </head>
+
+    <body>
+        <p>Hello.</p>
+        <p>It's me.</p>
+        <p id="clickme" onclick="Clicked();">Click me.</p>
+        <p onmouseover="Mouse()">Mouse over me.</p>
+        <img id="mouseme" src="../Images/lab09image.png">
+    </body>
+</html>

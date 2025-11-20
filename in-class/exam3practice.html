@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Exam 3 Practice</title>
+        <style>
+            nav {
+                display: flex;
+                justify-content: space-between;
+            }
+            
+        </style>
+        <script>
+            function huzzah () {
+                alert('You did it!');
+            }
+
+            function lookhere () {
+                document.getElementById("message").innerHTML = 'Wow!';
+            }
+
+            function eyeball () {
+                document.getElementById("eyes").innerHTML = 'Made you look!';
+            }
+
+        </script>
+    </head>
+
+    <body>
+        <nav>
+                <div class="box1">
+                <a href="https://kmkushne-su.github.io/ist263/project05/index.html"> Home</a> |
+                <a href="https://kmkushne-su.github.io/ist263/project05/communications.html"> Communications</a> |
+                <a href="https://kmkushne-su.github.io/ist263/project05/video.html"> Video </a>
+                </div>
+                <div class="box2">
+                <a href="https://kmkushne-su.github.io/ist263/project05/index.html"> Home</a> |
+                <a href="https://kmkushne-su.github.io/ist263/project05/communications.html"> Communications</a> |
+                <a href="https://kmkushne-su.github.io/ist263/project05/video.html"> Video </a>
+                </div>
+        </nav>
+        <p>Hello.</p>
+        <p>It's me.</p>
+        <p onclick="huzzah();">Click me.</p>
+        <div id="message" onmouseover="lookhere()">Look at me.</div>
+        <p onclick="eyeball">Click me now...</p>
+        <p id="eyes"></p>
+    </body>
+</html>

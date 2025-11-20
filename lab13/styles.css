@@ -1,0 +1,13 @@
+body {background-color: #bfb5b2;}
+font {font-size: 2em;}
+h1, h2 {color: #5e3c58; padding: 10px;}
+p {color: #000000;}
+nav a {color: #83adb5;}
+nav {background-color: #FFFFFF;}
+nav a:hover {background-color: #c7bbc9;}
+nav {padding: 10px;}
+nav {margin-bottom: 30 px;}
+@media only screen and (max-width: 760px) {
+    nav a {display: block; width: 100%; padding: 5em;}
+    nav span {display: none;}
+}
