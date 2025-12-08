@@ -5,27 +5,6 @@
         <meta name="viewport" content="width=device-width, intial-scale=1.0">
         <title>Home</title>
         <link rel="stylesheet" href="styles.css">
-    <script>
-        let slideIndex = 0;
-        showSlides();
-
-        function showSlides() {
-          let i;
-        let slides = document.getElementsByClassName("mySlides");
-        let dots = document.getElementsByClassName("dot");
-        for (i = 0; i < slides.length; i++) {
-         slides[i].style.display = "none";  
-          }
-        slideIndex++;
-        if (slideIndex > slides.length) {slideIndex = 1}    
-        for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-          }
-        slides[slideIndex-1].style.display = "block";  
-        dots[slideIndex-1].className += " active";
-        setTimeout(showSlides, 2000);
-        }
-    </script>
 </head>
 <body>
     <header>
@@ -47,13 +26,13 @@
     <article>
         <div class="slideshow-container">
             <div class="mySlides fade">
-            <img class="slidesimage" src="../projectimages/final_ss1.png" style="width:100%" alt="Kaitlyn Kushner directing a video production in a library">
+            <img class="slidesimage" src="../projectimages/final_ss1_v02.jpeg" style="width:100%" alt="Kaitlyn Kushner directing a video production in a library">
             </div>
         <div class="mySlides fade">
-            <img src="../projectimages/final_ss2.png" style="width:100%" alt="Kaitlyn Kushner moving video production equipment with team">
+            <img src="../projectimages/final_ss2_v03.png" style="width:100%" alt="Kaitlyn Kushner moving video production equipment with team">
         </div>
             <div class="mySlides fade">
-            <img src="../projectimages/final_ss3.png" style="width:100%" alt="Kaitlyn Kushner discussing production plans with a team member">
+            <img src="../projectimages/final_ss3_v03.png" style="width:100%" alt="Kaitlyn Kushner discussing production plans with a team member">
             </div>
         </div>
         <br>
@@ -62,20 +41,43 @@
         <span class="dot"></span> 
         <span class="dot"></span> 
         </div>
-        <img class="headshot" src="../projectimages/final_headshot.png" alt="Headshot of Kaitlyn Kushner">
+        <div class="mainme">
         <div class="allbody">
         <section>
         <h1>ABOUT</h1>
         <p>My name is Kaitlyn Kushner, and I am a passionate audio-visual storyteller based in the Cincinnati, New York, and London areas.</p>
         <p>I am a fourth-year student at Syracuse University in New York studying Television, Radio, and Film at the S.I. Newhouse School of Public Communications. I have minors in Psychology and Information and Technology Management. I am excited to use this scholastic knowledge alongside my professional and personal skills to create a more understanding and informed world. My expertise spans a variety of industries, specifically in Communications, Marketing, and Audio-visual Production. </p>
         <h1>CONTACT</h1>
-        <p>I love to meet new people and stay connected! Please reach out at kaitlynkushner1@gmail.com</p>
+        <p>I love to meet new people and stay connected! Please reach out at <a href="mailto:kaitlynkushner1@gmail.com">kaitlynkushner1@gmail.com</a></p>
         </section>
+        </div>
+        <img class="headshot" src="../projectimages/final_headshot.png" alt="Headshot of Kaitlyn Kushner">
         </div>
     </article>
     </main>
     <footer>
         <p>Copyright &copy; Kaitlyn Kushner 2004-2025</p>
     </footer>
+    <script>
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+          let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+         slides[i].style.display = "none";  
+          }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}    
+        for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+          }
+        slides[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " active";
+        setTimeout(showSlides, 2000);
+        }
+    </script>
 </body>
 </html>
