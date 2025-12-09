@@ -22,7 +22,7 @@ nav a {color: #000000; font-family: 'Open Sans', Verdana, Geneva, Tahoma, sans-s
 .largenav {display: flex; justify-content: space-between;}
 nav a:hover {background-color: #6D8196;}
 footer {background-color: #FFFFE3; padding: 0.09px; margin-top: 30px;}
-.headshot {padding: 10px; height: 15%; width: 15%; display: block; margin: 2em auto 2em auto; background-color: #6D8196; flex-basis: 50%;}
+.headshot {padding: 10px; display: block; height: 25%; width: 25%; margin: 1em; background-color: #6D8196; flex-basis: 50%; justify-content: center; align-items: center;}
 .exampleimage {padding: 10px; display: block; height: 25%; width: 25%; margin: 1em; background-color: #6D8196; flex-basis: 50%;}
 
 @media only screen and (max-width: 760px) {
