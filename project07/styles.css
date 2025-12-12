@@ -12,22 +12,30 @@
         height: auto;
         }
 body {background-color: #CBCBCB;}
-.mainme {display: flex;}
 .allbody {display: flex; margin-left: auto; margin-right: auto; max-width: 1200px; justify-content: center; align-items: center; flex-wrap: wrap;}
-h1 {color: #4A4A4A; font-family: 'Open Sans', Verdana, Geneva, Tahoma, sans-serif; text-align: center; padding: 0.15em; font-size: 2.5em;}
-h2 {color: #4A4A4A; font-family: 'Open Sans', Verdana, Geneva, Tahoma, sans-serif; text-align: center; font-size: 1.75em;}
-p {color: #000000; font-family: 'Open Sans', Verdana, Geneva, Tahoma, sans-serif; text-align: center; font-size: 25px; padding: 1em;}
+.mainme {display: flex; justify-content: center; align-items: center;}
+.headshot {padding: 10px; display: block; height: 25%; width: 25%; max-width: 100%; background-color: #6D8196; margin: 0 auto; order: 1; align-items: center; justify-content: center;}
+.indexmain {order: 2;}
+h1 {color: #4a4a4a; font-family: 'Open Sans', Verdana, Geneva, Tahoma, sans-serif; text-align: center; padding: 0.15em; font-size: 2.3em;}
+h2 {color: #4A4A4A; font-family: 'Open Sans', Verdana, Geneva, Tahoma, sans-serif; text-align: center; font-size: 1.3em;}
+p {color: #000000; font-family: 'Open Sans', Verdana, Geneva, Tahoma, sans-serif; text-align: center; font-size: 20px; padding: 1em;}
 nav {background-color: #FFFFE3; padding: 10px; margin-bottom: 30px;}
-nav a {color: #000000; font-family: 'Open Sans', Verdana, Geneva, Tahoma, sans-serif;}
+nav a, .middle {color: #000000; font-family: 'Open Sans', Verdana, Geneva, Tahoma, sans-serif;}
 .largenav {display: flex; justify-content: space-between;}
 nav a:hover {background-color: #6D8196;}
 footer {background-color: #FFFFE3; padding: 0.09px; margin-top: 30px;}
-.headshot {padding: 10px; display: block; height: 25%; width: 25%; margin: 1em; background-color: #6D8196; flex-basis: 50%; justify-content: center; align-items: center;}
 .exampleimage {padding: 10px; display: block; height: 25%; width: 25%; margin: 1em; background-color: #6D8196; flex-basis: 50%;}
+
 
 @media only screen and (max-width: 760px) {
     .largenav a {display: block; width: 100%; padding: 5px;}
     .largenav span {display: none;}
+    .headshot {flex-wrap: wrap; min-width: 200px; height: auto;}
+    .slideshow-container {min-width: 370px; height: auto;}
+    .mainme {flex-wrap: wrap;}
+    .secondimage {order: 1;}
+    .firstword {order: 2;}
+    .exampleimage {min-width: 370px; height: auto;}
 }
 
 * {box-sizing: border-box;}
@@ -52,7 +60,6 @@ footer {background-color: #FFFFE3; padding: 0.09px; margin-top: 30px;}
   margin: 0 2px;
   background-color: #bbb;
   border-radius: 50%;
-  display: inline-block;
   transition: background-color 0.6s ease;
 }
 .active {
